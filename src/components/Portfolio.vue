@@ -40,7 +40,7 @@ const sections = [
         link: 'https://www.figma.com/community/file/1296324320137825490',
       },
       {
-        src: new URL('../assets/images/2.jpg', import.meta.url).href,
+        src: new URL('../assets/images/2.png', import.meta.url).href,
         alt: 'ART 擬態頁設計',
         link: 'https://www.figma.com/community/file/1296481888531950151/art',
       },
@@ -50,10 +50,10 @@ const sections = [
     title: '海報製作',
     items: [
       { src: new URL('../assets/images/3.png', import.meta.url).href, alt: '濟洲島' },
-      { src: new URL('../assets/images/4.gif', import.meta.url).href, alt: '城堡-白天-黑夜' },
       { src: new URL('../assets/images/5.png', import.meta.url).href, alt: '靠枕海報' },
       { src: new URL('../assets/images/6.png', import.meta.url).href, alt: '靠枕海報0520' },
       { src: new URL('../assets/images/7.png', import.meta.url).href, alt: '懷舊時光' },
+      { src: new URL('../assets/images/19.png', import.meta.url).href, alt: 'grain' },
     ],
   },
   {
@@ -69,6 +69,17 @@ const sections = [
     items: [
       { src: new URL('../assets/images/11.png', import.meta.url).href, alt: '郵戳章信封' },
       { src: new URL('../assets/images/12.png', import.meta.url).href, alt: '花好月圓' },
+      { src: new URL('../assets/images/13.png', import.meta.url).href, alt: '名片' },
+    ],
+  },
+  {
+    title: '插畫作品',
+    items: [
+      { src: new URL('../assets/images/14.jpg', import.meta.url).href, alt: '木馬奇遇記' },
+      { src: new URL('../assets/images/15.png', import.meta.url).href, alt: '元宵節' },
+      { src: new URL('../assets/images/16.png', import.meta.url).href, alt: '瓜瓜樂夏天' },
+      { src: new URL('../assets/images/17.png', import.meta.url).href, alt: '紅鬼藍鬼' },
+      { src: new URL('../assets/images/18.png', import.meta.url).href, alt: '星空' },
     ],
   },
 ]
